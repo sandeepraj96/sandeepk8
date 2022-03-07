@@ -10,11 +10,18 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
+:q!
+|2,0,1646626236,,"q!"
 :wq
 |2,0,1646625845,,"wq"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1646626228,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -23,9 +30,12 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+""0	LINE	0
 	from fastapi import FastAPI, Request, Form
-|3,1,1,1,1,0,1646625839,"from fastapi import FastAPI, Request, Form"
+|3,1,0,1,1,0,1646626228,"from fastapi import FastAPI, Request, Form"
+"1	LINE	0
+	from fastapi import FastAPI, Request, Form
+|3,0,1,1,1,0,1646625839,"from fastapi import FastAPI, Request, Form"
 "2	LINE	0
 	from fastapi.templating import Jinja2Templates
 |3,0,2,1,1,0,1646625839,"from fastapi.templating import Jinja2Templates"
@@ -55,30 +65,46 @@
 |3,0,36,0,1,0,1646625837," "
 
 # File marks:
-'0  9  79  ~/main.py
-|4,48,9,79,1646625845,"~/main.py"
-'1  10  18  ~/form.html
-|4,49,10,18,1646625700,"~/form.html"
-'2  4  12  ~/requirements.txt
-|4,50,4,12,1646625627,"~/requirements.txt"
-'3  1  13  ~/pod.yaml
-|4,51,1,13,1646625602,"~/pod.yaml"
-'4  7  63  ~/Dockerfile
-|4,52,7,63,1646625579,"~/Dockerfile"
-'5  19  17  /etc/default/jenkins
-|4,53,19,17,1646624426,"/etc/default/jenkins"
-'6  19  8  /etc/default/jenkins
-|4,54,19,8,1646624338,"/etc/default/jenkins"
+'0  35  0  /var/lib/jenkins
+|4,48,35,0,1646626236,"/var/lib/jenkins"
+'1  9  79  ~/main.py
+|4,49,9,79,1646625845,"~/main.py"
+'2  10  18  ~/form.html
+|4,50,10,18,1646625700,"~/form.html"
+'3  4  12  ~/requirements.txt
+|4,51,4,12,1646625627,"~/requirements.txt"
+'4  1  13  ~/pod.yaml
+|4,52,1,13,1646625602,"~/pod.yaml"
+'5  7  63  ~/Dockerfile
+|4,53,7,63,1646625579,"~/Dockerfile"
+'6  19  17  /etc/default/jenkins
+|4,54,19,17,1646624426,"/etc/default/jenkins"
+'7  19  8  /etc/default/jenkins
+|4,55,19,8,1646624338,"/etc/default/jenkins"
 
 # Jumplist (newest first):
+-'  35  0  /var/lib/jenkins
+|4,39,35,0,1646626236,"/var/lib/jenkins"
 -'  9  79  ~/main.py
 |4,39,9,79,1646625845,"~/main.py"
+-'  9  79  ~/main.py
+|4,39,9,79,1646625845,"~/main.py"
+-'  1  79  ~/main.py
+|4,39,1,79,1646625832,"~/main.py"
 -'  1  79  ~/main.py
 |4,39,1,79,1646625832,"~/main.py"
 -'  10  18  ~/form.html
 |4,39,10,18,1646625700,"~/form.html"
 -'  10  18  ~/form.html
 |4,39,10,18,1646625700,"~/form.html"
+-'  10  18  ~/form.html
+|4,39,10,18,1646625700,"~/form.html"
+-'  10  18  ~/form.html
+|4,39,10,18,1646625700,"~/form.html"
+-'  1  0  ~/form.html
+|4,39,1,0,1646625638,"~/form.html"
+-'  1  0  ~/form.html
+|4,39,1,0,1646625638,"~/form.html"
 -'  1  0  ~/form.html
 |4,39,1,0,1646625638,"~/form.html"
 -'  1  0  ~/form.html
@@ -91,6 +117,22 @@
 |4,39,4,12,1646625627,"~/requirements.txt"
 -'  4  12  ~/requirements.txt
 |4,39,4,12,1646625627,"~/requirements.txt"
+-'  4  12  ~/requirements.txt
+|4,39,4,12,1646625627,"~/requirements.txt"
+-'  4  12  ~/requirements.txt
+|4,39,4,12,1646625627,"~/requirements.txt"
+-'  4  12  ~/requirements.txt
+|4,39,4,12,1646625627,"~/requirements.txt"
+-'  4  12  ~/requirements.txt
+|4,39,4,12,1646625627,"~/requirements.txt"
+-'  1  0  ~/requirements.txt
+|4,39,1,0,1646625614,"~/requirements.txt"
+-'  1  0  ~/requirements.txt
+|4,39,1,0,1646625614,"~/requirements.txt"
+-'  1  0  ~/requirements.txt
+|4,39,1,0,1646625614,"~/requirements.txt"
+-'  1  0  ~/requirements.txt
+|4,39,1,0,1646625614,"~/requirements.txt"
 -'  1  0  ~/requirements.txt
 |4,39,1,0,1646625614,"~/requirements.txt"
 -'  1  0  ~/requirements.txt
@@ -115,6 +157,54 @@
 |4,39,1,13,1646625602,"~/pod.yaml"
 -'  1  13  ~/pod.yaml
 |4,39,1,13,1646625602,"~/pod.yaml"
+-'  1  13  ~/pod.yaml
+|4,39,1,13,1646625602,"~/pod.yaml"
+-'  1  13  ~/pod.yaml
+|4,39,1,13,1646625602,"~/pod.yaml"
+-'  1  13  ~/pod.yaml
+|4,39,1,13,1646625602,"~/pod.yaml"
+-'  1  13  ~/pod.yaml
+|4,39,1,13,1646625602,"~/pod.yaml"
+-'  1  13  ~/pod.yaml
+|4,39,1,13,1646625602,"~/pod.yaml"
+-'  1  13  ~/pod.yaml
+|4,39,1,13,1646625602,"~/pod.yaml"
+-'  1  13  ~/pod.yaml
+|4,39,1,13,1646625602,"~/pod.yaml"
+-'  1  13  ~/pod.yaml
+|4,39,1,13,1646625602,"~/pod.yaml"
+-'  7  63  ~/Dockerfile
+|4,39,7,63,1646625579,"~/Dockerfile"
+-'  7  63  ~/Dockerfile
+|4,39,7,63,1646625579,"~/Dockerfile"
+-'  7  63  ~/Dockerfile
+|4,39,7,63,1646625579,"~/Dockerfile"
+-'  7  63  ~/Dockerfile
+|4,39,7,63,1646625579,"~/Dockerfile"
+-'  7  63  ~/Dockerfile
+|4,39,7,63,1646625579,"~/Dockerfile"
+-'  7  63  ~/Dockerfile
+|4,39,7,63,1646625579,"~/Dockerfile"
+-'  7  63  ~/Dockerfile
+|4,39,7,63,1646625579,"~/Dockerfile"
+-'  7  63  ~/Dockerfile
+|4,39,7,63,1646625579,"~/Dockerfile"
+-'  7  63  ~/Dockerfile
+|4,39,7,63,1646625579,"~/Dockerfile"
+-'  7  63  ~/Dockerfile
+|4,39,7,63,1646625579,"~/Dockerfile"
+-'  7  63  ~/Dockerfile
+|4,39,7,63,1646625579,"~/Dockerfile"
+-'  7  63  ~/Dockerfile
+|4,39,7,63,1646625579,"~/Dockerfile"
+-'  7  63  ~/Dockerfile
+|4,39,7,63,1646625579,"~/Dockerfile"
+-'  7  63  ~/Dockerfile
+|4,39,7,63,1646625579,"~/Dockerfile"
+-'  7  63  ~/Dockerfile
+|4,39,7,63,1646625579,"~/Dockerfile"
+-'  7  63  ~/Dockerfile
+|4,39,7,63,1646625579,"~/Dockerfile"
 -'  7  63  ~/Dockerfile
 |4,39,7,63,1646625579,"~/Dockerfile"
 -'  7  63  ~/Dockerfile
@@ -179,98 +269,18 @@
 |4,39,1,0,1646625567,"~/Dockerfile"
 -'  1  0  ~/Dockerfile
 |4,39,1,0,1646625567,"~/Dockerfile"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  17  /etc/default/jenkins
-|4,39,19,17,1646624426,"/etc/default/jenkins"
--'  19  8  /etc/default/jenkins
-|4,39,19,8,1646624338,"/etc/default/jenkins"
--'  19  8  /etc/default/jenkins
-|4,39,19,8,1646624338,"/etc/default/jenkins"
--'  19  8  /etc/default/jenkins
-|4,39,19,8,1646624338,"/etc/default/jenkins"
--'  19  8  /etc/default/jenkins
-|4,39,19,8,1646624338,"/etc/default/jenkins"
--'  19  8  /etc/default/jenkins
-|4,39,19,8,1646624338,"/etc/default/jenkins"
--'  19  8  /etc/default/jenkins
-|4,39,19,8,1646624338,"/etc/default/jenkins"
--'  19  8  /etc/default/jenkins
-|4,39,19,8,1646624338,"/etc/default/jenkins"
--'  19  8  /etc/default/jenkins
-|4,39,19,8,1646624338,"/etc/default/jenkins"
--'  19  8  /etc/default/jenkins
-|4,39,19,8,1646624338,"/etc/default/jenkins"
--'  19  8  /etc/default/jenkins
-|4,39,19,8,1646624338,"/etc/default/jenkins"
--'  19  8  /etc/default/jenkins
-|4,39,19,8,1646624338,"/etc/default/jenkins"
--'  19  8  /etc/default/jenkins
-|4,39,19,8,1646624338,"/etc/default/jenkins"
--'  19  8  /etc/default/jenkins
-|4,39,19,8,1646624338,"/etc/default/jenkins"
--'  19  8  /etc/default/jenkins
-|4,39,19,8,1646624338,"/etc/default/jenkins"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1646625567,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1646625567,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1646625567,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1646625567,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1646625567,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1646625567,"~/Dockerfile"
 
 # History of marks within files (newest to oldest):
 
